@@ -1,0 +1,145 @@
+#header{
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    width: 100%;
+    float: left;
+}
+#login{
+    font-size: 22px;
+    width: 15%;
+    float: right;
+    margin-right: 5%;
+}
+#signup{
+    font-size: 22px;
+    width: 15%;
+    float: right;
+    margin-right: 5%;
+}
+.title
+{
+    font-size: 44px;
+    margin-left: 15%;
+}
+.button 
+{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+    width: 150px;
+}
+#textual
+{
+    font-size: 18px;
+    margin-left: 10%;
+}
+.whitepiece
+{
+    width: 60px;
+    height: 60px;
+    background-color:burlywood;
+    float: left;
+}
+.blackpiece
+{
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    float: left;
+}
+.row1
+{
+    padding-top: 60px;
+}
+.row2
+{
+    padding-top: 60px;
+}
+.row3
+{
+    padding-top: 60px;
+}
+.row4
+{
+    padding-top: 60px;
+}
+.row5
+{
+    padding-top: 60px;
+}
+.row6
+{
+    padding-top: 60px;
+}
+.row7
+{
+    padding-top: 60px;
+}
+.row8
+{
+    padding-top: 60px;
+}
+#whiteplayer
+{
+    width: 480px;
+    margin-right: 300px;
+    padding-top: 120px;
+    text-align: center;
+}
+#blackplayer
+{
+    width: 480px;
+    margin-right: 300px;
+    text-align: center;
+}
+#board 
+{
+    width: 480px;
+    margin: 0 auto;
+}
+#submitmove
+{ 
+    width: 100px;
+    margin: 0 190px;
+    margin-top: 60px;
+}
+#wchoice
+{
+    position: absolute;
+    margin-left: 400px;
+    z-index: 1;
+    margin-bottom:800px;
+}
+#bchoice
+{
+    margin-left: 400px;
+    position: absolute;
+    z-index: 1;
+    margin-bottom:800px;
+}
+#yeet{
+    position: absolute;
+    padding-top: 400px;
+}
+#spacer{
+    width: 500px;
+    /* margin: 20px 0 -50px 0; use this if you want #container to have a 'bottom padding', in this case of 20px */
+    background: transparent; 
+}
+#rungame
+{
+    margin-top: 50px;
+    display:relative;
+    width: 100px;
+    margin-left: 200px;
+}

@@ -1,0 +1,94 @@
+#userinfo
+{
+    position: absolute;
+    width: 200px;
+    top: 30px;
+    right: 0px;
+    background-color: lightblue;
+    margin: 0 0;
+    text-align: center;
+}
+#header
+{
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    width: 100%;
+    float: left;
+}
+.title
+{
+    font-size: 44px;
+    margin-left: 15%;
+}
+.gameoptions
+{
+    float: left;
+    margin-top: 25px;
+    margin-left: 6%;
+    width: 481px;
+    height: 481px;
+}
+.subtitle
+{
+    position: relative;
+    width: 200px;
+    margin: 200px 145px;
+    font-size: 22px;
+    padding:0.3em 1.2em;
+    float: right;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+}
+#offline
+{
+    background-color: #cccccc;
+    background-image: url('../opening/english.PNG');
+}
+#playafriend
+{
+    background-color: #cccccc;
+    background-image: url('../opening/scillian.PNG');
+}
+#playonline
+{
+    background-color: #cccccc;
+    background-image: url('../opening/ruylopez.PNG');
+}
+#usersadded
+{
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 680px;
+    font-size: 20px;
+}
+body{
+    margin: 0 0;
+}
+.button 
+{
+    display:inline-block;
+    position: absolute;
+    padding:0.3em 1.2em;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+    width: 150px;
+    top: 0;
+    right: 0;
+}

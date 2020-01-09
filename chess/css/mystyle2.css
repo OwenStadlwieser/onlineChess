@@ -1,0 +1,178 @@
+.input
+{
+    display:table;
+    margin: 5% auto;
+    width: 65%;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+}
+#bigform
+{
+    padding: 2% 0 2% 0;
+    width: 30%;
+    margin: auto;
+    background-color:rgba(182,182,182, 0.8);
+    border-radius: 10px;
+    margin-top: 10%;
+    overflow: hidden;
+}
+#header{
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+    width: 100%;
+    display: block;
+    margin: 0 0;
+}
+#login{
+    font-size: 22px;
+    width: 15%;
+    float: right;
+    margin-right: 5%;
+}
+.button 
+{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+    width: 150px;
+}
+#signup{
+    font-size: 22px;
+    width: 15%;
+    float: right;
+    margin-right: 5%;
+}
+.title
+{
+    font-size: 44px;
+    margin-left: 15%;
+}
+#textual
+{
+    font-size: 18px;
+    margin-left: 10%;
+}
+#cha
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+body{
+    margin: 0 0;
+}
+#submit
+{
+    display:table;
+    padding:0.3em 1.2em;
+    margin:0 auto;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color: green;
+    text-align:center;
+    transition: all 0.2s;
+    width: 120px;
+}
+.button 
+{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+}
+#LoginButton
+{
+    width: 35%;
+    height: 40px;
+    display:table;
+    margin:0 auto;
+    margin-top: 5%;
+}
+.centered
+{
+    display:table;
+    margin:0 auto;
+}
+#sign
+{
+    width: 150px;
+}
+#sign2
+{
+    width: 150px;
+}
+#sp
+{
+    display:table;
+    margin:0 auto;
+    margin-top: 15%;
+}
+#user
+{
+    display: table;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    height: 20px;
+    font-size: 14px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+#userinfo
+{
+    border-color: #f1f1f1;
+    border-width: 2px;
+    border-radius: 30px;
+    border-style: solid;
+    width: 460px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    left: 0;
+    font-size: 24px;
+    top: 100px;
+    background: #f1f1f1;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#games
+{
+    border-color: #f1f1f1;
+    border-width: 2px;
+    border-radius: 30px;
+    border-style: solid;
+    width: 460px;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    right: 0;
+    font-size: 24px;
+    top: 100px;
+    background: #f1f1f1;
+    overflow-x: hidden;
+    padding-top: 20px;
+}

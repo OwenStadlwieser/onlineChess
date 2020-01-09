@@ -1,0 +1,83 @@
+.whitepiece
+{
+    width: 60px;
+    height: 60px;
+    background-color:burlywood;
+    float: left;
+}
+.blackpiece
+{
+    width: 60px;
+    height: 60px;
+    background-color: green;
+    float: left;
+}
+.row1
+{
+    padding-top: 60px;
+}
+.row2
+{
+    padding-top: 60px;
+}
+.row3
+{
+    padding-top: 60px;
+}
+.row4
+{
+    padding-top: 60px;
+}
+.row5
+{
+    padding-top: 60px;
+}
+.row6
+{
+    padding-top: 60px;
+}
+.row7
+{
+    padding-top: 60px;
+}
+.row8
+{
+    padding-top: 60px;
+}
+#main 
+{
+    width: 60%;
+    position: static;
+    z-index: auto;
+    display:block;
+    margin:0px auto;
+}
+#submitmove
+{ 
+    display:block;
+    width: 15%;
+    margin-left:195px;
+}
+#wchoice
+{
+    position: absolute;
+    margin-left: 400px;
+    z-index: 1;
+    margin-bottom:800px;
+}
+#bchoice
+{
+    margin-left: 400px;
+    position: absolute;
+    z-index: 1;
+    margin-bottom:800px;
+}
+#yeet{
+    position: absolute;
+    padding-top: 400px;
+}
+#spacer{
+    width: 500px;
+    /* margin: 20px 0 -50px 0; use this if you want #container to have a 'bottom padding', in this case of 20px */
+    background: transparent; 
+}
