@@ -21,7 +21,7 @@
             $_SESSION['uid'] = $row['user_uid'];
             $_SESSION['name'] = $row['user_first'];
             $_SESSION['email'] = $row['user_email'];
-            $_SESSION['id'] = $row['user_id'];
+            $_SESSION['id'] = $row['user_uid'];
             $_SESSION['rating'] = $row['rating'];
             header("Location: ../pages/openchess2.php?login=success");
         }

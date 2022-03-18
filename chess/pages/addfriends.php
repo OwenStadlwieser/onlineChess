@@ -36,7 +36,7 @@
     $results = ($model->getresults());
     for($i=0; $i<sizeof($results); $i++)
     {
-    $sql = "SELECT * FROM users WHERE user_id = ?;";
+    $sql = "SELECT * FROM users WHERE user_uid = ?;";
     $model->prepare($sql);
     if($results[$i]['user1id'] == $_SESSION['id'])
     {

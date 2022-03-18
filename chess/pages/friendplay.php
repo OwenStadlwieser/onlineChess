@@ -42,7 +42,7 @@
         $results = ($model->getresults());
         for($i=0; $i<sizeof($results); $i++)
         {
-        $sql = "SELECT * FROM users WHERE user_id = ?;";
+        $sql = "SELECT * FROM users WHERE user_uid = ?;";
         $model->prepare($sql);
         if($results[$i]['user1id'] == $_SESSION['id'])
         {
@@ -102,7 +102,7 @@
         $results = ($model->getresults());
         for($i=0; $i<sizeof($results); $i++)
         {
-        $sql = "SELECT * FROM users WHERE user_id = ?;";
+        $sql = "SELECT * FROM users WHERE user_uid = ?;";
         $model->prepare($sql);
         if($results[$i]['whiteplayerid'] == $_SESSION['id'])
         {
@@ -114,7 +114,7 @@
         }
         $model->execute(array($store));
         $row = $model->getresult();
-        echo('<form action = "onlineplay.php" method = POST><button value = "'.$results[$i]['gameID'].'" name = "gameID" id = "play">Playing VS '.$row['4'].'</button></form>');
+        echo('<form action = "onlineplay.php" method = POST><button value = "'.$results[$i]['gameID'].'" name = "gameID" id = "play">Playing VS '.$row['0'].'</button></form>');
         echo "<br>";
         }
         ?>
@@ -148,7 +148,7 @@
         $results = ($model->getresults());
         for($i=0; $i<sizeof($results); $i++)
         {
-        $sql = "SELECT * FROM users WHERE user_id = ?;";
+        $sql = "SELECT * FROM users WHERE user_uid = ?;";
         $model->prepare($sql);
         if($results[$i]['whiteplayerid'] == $_SESSION['id'])
         {

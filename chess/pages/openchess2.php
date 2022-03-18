@@ -57,7 +57,7 @@
         $results = ($model->getresults());
         for($i=0; $i<sizeof($results); $i++)
         {
-        $sql = "SELECT * FROM users WHERE user_id = ?;";
+        $sql = "SELECT * FROM users WHERE user_uid = ?;";
         $model->prepare($sql);
         if($results[$i]['user1id'] == $_SESSION['id'])
         {
@@ -69,13 +69,18 @@
         }
         $model->execute(array($store));
         $row = $model->getresult();
-        echo($row['4']);
+        $output = $_SESSION['id'];
+        if (is_array($output))
+            $output = implode(',', $output);
+    
+        echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
+        echo($row['0']);
         echo "<br>";
         }
         ?>
         <div id='findusers'>
             <form method = post action = '../includes/search.php'>
-                <input name = 'uid'>
+                <input name = 'user_uid'>
                 <button>Add</button>
             </form>
         </div>

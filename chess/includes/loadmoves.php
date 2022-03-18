@@ -8,11 +8,11 @@
     $model->prepare($sql);
     $model->execute(array($gameID));
     $result = $model->getresult();
-    $sql = "SELECT * from users where user_id = ?";
+    $sql = "SELECT * from users where user_uid = ?";
     $model->prepare($sql);
     $model->execute(array($result['whiteplayerid']));
     $whiteplayerdata = $model->getresult();
-    $sql = "SELECT * from users where user_id = ?";
+    $sql = "SELECT * from users where user_uid = ?";
     $model->prepare($sql);
     $model->execute(array($result['blackplayerid']));
     $blackplayerdata = $model->getresult();

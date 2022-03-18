@@ -10,11 +10,11 @@ if ($uid != $_SESSION['uid'])
     $model->prepare($sql);
     $model->execute(array($uid));
     $row = $model->getresult();
-    if (!empty($row['user_id']))
+    if (!empty($row['user_uid']))
     {
         $sql = "SELECT * from friends where (user1id = ? AND user2id = ?) OR (user1id = ? AND user2id = ?)";
         $model->prepare($sql);
-        $model->execute(array($row['user_id'], $_SESSION['id'], $_SESSION['id'], $row['user_id']));
+        $model->execute(array($row['user_uid'], $_SESSION['id'], $_SESSION['id'], $row['user_uid']));
         $results = $model->getresult();
         if(!empty($results))
         {
@@ -25,7 +25,7 @@ if ($uid != $_SESSION['uid'])
             }
             if($random < 5)
             {
-                $id = $row['user_id'];
+                $id = $row['user_uid'];
                 $sql = "INSERT INTO games (`whiteplayerid`, `blackplayerid`) VALUES (?,?)";
                 $model->prepare($sql);
                 $model->execute(array($_SESSION['id'], $id));
@@ -33,7 +33,7 @@ if ($uid != $_SESSION['uid'])
             }
             else
             {
-                $id = $row['user_id'];
+                $id = $row['user_uid'];
                 $sql = "INSERT INTO games (`whiteplayerid`, `blackplayerid`) VALUES (?,?)";
                 $model->prepare($sql);
                 $model->execute(array($id, $_SESSION['id']));
