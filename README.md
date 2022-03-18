@@ -1,6 +1,17 @@
-Link to demo:
+# Intro
+## Welcome to online chess
+This project features a javascript application where users can signup and challenge their friends to online chess matches
+## Link to demo:
 https://drive.google.com/file/d/1Q236z1epmLZPFKjT0Gw8sLf5NBXs2R9J/view?usp=sharing
-
+# Run on on your own machine
+1. Install xampp https://www.apachefriends.org/index.html
+2. Start apache and mysql from xampp app
+3. Open php myadmin
+4. Create database titled "chess"
+5. Create the tables shown below using the SQL tab within database chess
+6. Clone this repository to C:\xampp\htdocs
+7. open url http://localhost/onlineChess/chess/pages/openchess.html
+8. Application should be open :)
 # Tables:
 ## GAMES:
 CREATE TABLE `games` (
